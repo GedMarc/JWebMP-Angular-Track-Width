@@ -8,27 +8,27 @@ import za.co.mmagon.jwebswing.plugins.PluginInformation;
 import za.co.mmagon.jwebswing.plugins.jquery.JQueryPageConfigurator;
 
 /**
- * Allows for elements to have an track width
+ * Allows for elements to do auto focus
  *
  * @author Marc Magon
  * @since 16 Jun 2017
  */
-@PluginInformation(pluginName = "Angular Track Width",
-        pluginDescription = "Adds a width tracker to the scope Angular",
-        pluginUniqueName = "jwebswing-angular-track-width",
+@PluginInformation(pluginName = "Angular Auto Focus",
+        pluginDescription = "Allows your auto focus components using Angular",
+        pluginUniqueName = "jwebswing-angular-auto-focus",
         pluginVersion = "1.0.0",
-        pluginCategories = "angular,tracking,sizing,ui,web ui, framework",
-        pluginSubtitle = "Adds a width tracker to the scope Angular",
+        pluginCategories = "angular,auto focus,focus,ui,web ui, framework",
+        pluginSubtitle = "Allows your auto focus components using Angular",
         pluginSourceUrl = "https://www.akveo.com/products.html",
-        pluginWikiUrl = "https://github.com/GedMarc/JWebSwing-Angular-Track-Width/wiki",
-        pluginGitUrl = "https://github.com/GedMarc/JWebSwing-Angular-Track-Width",
+        pluginWikiUrl = "https://github.com/GedMarc/JWebSwing-Angular-Auto-Focus/wiki",
+        pluginGitUrl = "https://github.com/GedMarc/JWebSwing-Angular-Auto-Focus",
         pluginIconUrl = "",
         pluginIconImageUrl = "",
         pluginOriginalHomepage = "https://www.akveo.com/products.html",
-        pluginDownloadUrl = "https://sourceforge.net/projects/jwebswing/files/plugins/AngularTrackWidth.jar/download"
+        pluginDownloadUrl = "https://sourceforge.net/projects/jwebswing/files/plugins/AngularAutoFocus.jar/download"
 )
-@ComponentInformation(name = "Angular Track Width",
-        description = "Adds a width tracker to the scope Angular",
+@ComponentInformation(name = "Angular Auto Focus",
+        description = "Allows your auto focus components using Angular",
         url = "https://www.akveo.com/products.html")
 public class AngularTrackWidthPageConfigurator extends PageConfigurator
 {
