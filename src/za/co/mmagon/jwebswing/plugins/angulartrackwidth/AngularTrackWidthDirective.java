@@ -11,9 +11,9 @@ import za.co.mmagon.jwebswing.base.angular.directives.AngularDirectiveBase;
  */
 class AngularTrackWidthDirective extends AngularDirectiveBase
 {
-	
+
 	private static final long serialVersionUID = 1L;
-	
+
 	/*
 	 * Constructs a new AngularTrackWidthDirective
 	 */
@@ -21,10 +21,10 @@ class AngularTrackWidthDirective extends AngularDirectiveBase
 	{
 		super("AngularTrackWidth");
 	}
-	
+
 	@Override
 	public String renderFunction()
 	{
-		return FileTemplates.getFileTemplate(AngularTrackWidthDirective.class, "trackWidth.min").toString();
+		return FileTemplates.getFileTemplate(AngularTrackWidthDirective.class, "trackWidth", "trackWidth").toString();
 	}
 }
