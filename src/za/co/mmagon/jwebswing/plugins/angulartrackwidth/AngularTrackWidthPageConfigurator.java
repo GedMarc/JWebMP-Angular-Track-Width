@@ -25,12 +25,12 @@ import za.co.mmagon.jwebswing.plugins.jquery.JQueryPageConfigurator;
 		pluginIconUrl = "",
 		pluginIconImageUrl = "",
 		pluginOriginalHomepage = "https://www.akveo.com/products.html",
-		pluginDownloadUrl = "https://sourceforge.net/projects/jwebswing/files/plugins/AngularAutoFocus.jar/download"
-)
+		pluginDownloadUrl = "https://sourceforge.net/projects/jwebswing/files/plugins/AngularAutoFocus.jar/download")
 @ComponentInformation(name = "Angular Auto Focus",
 		description = "Allows your auto focus components using Angular",
 		url = "https://www.akveo.com/products.html")
-public class AngularTrackWidthPageConfigurator extends PageConfigurator
+public class AngularTrackWidthPageConfigurator
+		extends PageConfigurator
 {
 
 	private static final long serialVersionUID = 1L;
@@ -50,7 +50,6 @@ public class AngularTrackWidthPageConfigurator extends PageConfigurator
 		{
 			JQueryPageConfigurator.setRequired(true);
 			AngularPageConfigurator.setRequired(true);
-			page.getAngular().getAngularDirectives().add(new AngularTrackWidthDirective());
 		}
 		return page;
 	}
