@@ -26,7 +26,7 @@ public class AngularTrackWidthDirective
 	@Override
 	public String renderFunction()
 	{
-		return FileTemplates.getFileTemplate(AngularTrackWidthDirective.class, "trackWidth", "trackWidth.min")
+		return FileTemplates.getFileTemplate(AngularTrackWidthDirective.class, "trackWidth", "trackWidth.min.js")
 		                    .toString();
 	}
 }
