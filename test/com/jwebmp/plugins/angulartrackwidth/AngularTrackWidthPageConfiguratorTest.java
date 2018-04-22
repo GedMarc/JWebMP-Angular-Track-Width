@@ -17,7 +17,6 @@
 
 package com.jwebmp.plugins.angulartrackwidth;
 
-import com.jwebmp.BaseTestClass;
 import com.jwebmp.Page;
 import org.junit.jupiter.api.Test;
 
@@ -25,7 +24,7 @@ import org.junit.jupiter.api.Test;
  * @author Marc Magon
  */
 public class AngularTrackWidthPageConfiguratorTest
-		extends BaseTestClass
+
 {
 
 	public AngularTrackWidthPageConfiguratorTest()
@@ -35,7 +34,7 @@ public class AngularTrackWidthPageConfiguratorTest
 	@Test
 	public void testSomeMethod()
 	{
-		Page p = getInstance();
+		Page p = new Page();
 		System.out.println(p.toString(0));
 	}
 
