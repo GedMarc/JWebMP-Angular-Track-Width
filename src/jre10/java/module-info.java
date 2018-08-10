@@ -7,6 +7,7 @@ module com.jwebmp.plugins.angulartrackwidth {
 	exports com.jwebmp.plugins.angulartrackwidth;
 
 	requires com.jwebmp.core;
+	requires java.validation;
 	provides IPageConfigurator with AngularTrackWidthPageConfigurator;
 	provides IAngularDirective with AngularTrackWidthDirective;
 
