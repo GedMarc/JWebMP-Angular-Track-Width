@@ -51,6 +51,10 @@ import javax.validation.constraints.NotNull;
 public class AngularTrackWidthPageConfigurator
 		implements IPageConfigurator
 {
+	/**
+	 * If this configurator is enabled
+	 */
+	private static boolean enabled = true;
 
 	/*
 	 * Constructs a new AngularTrackWidthPageConfigurator
@@ -58,6 +62,31 @@ public class AngularTrackWidthPageConfigurator
 	public AngularTrackWidthPageConfigurator()
 	{
 		//Nothing needed
+	}
+
+	/**
+	 * Method isEnabled returns the enabled of this AngularAnimatedChangePageConfigurator object.
+	 * <p>
+	 * If this configurator is enabled
+	 *
+	 * @return the enabled (type boolean) of this AngularAnimatedChangePageConfigurator object.
+	 */
+	public static boolean isEnabled()
+	{
+		return AngularTrackWidthPageConfigurator.enabled;
+	}
+
+	/**
+	 * Method setEnabled sets the enabled of this AngularAnimatedChangePageConfigurator object.
+	 * <p>
+	 * If this configurator is enabled
+	 *
+	 * @param mustEnable
+	 * 		the enabled of this AngularAnimatedChangePageConfigurator object.
+	 */
+	public static void setEnabled(boolean mustEnable)
+	{
+		AngularTrackWidthPageConfigurator.enabled = mustEnable;
 	}
 
 	@NotNull
@@ -70,5 +99,11 @@ public class AngularTrackWidthPageConfigurator
 			AngularPageConfigurator.setRequired(true);
 		}
 		return page;
+	}
+
+	@Override
+	public boolean enabled()
+	{
+		return AngularTrackWidthPageConfigurator.enabled;
 	}
 }
