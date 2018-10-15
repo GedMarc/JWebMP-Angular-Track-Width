@@ -39,8 +39,8 @@ import javax.validation.constraints.NotNull;
 		pluginCategories = "angular,auto focus,focus,ui,web ui, framework",
 		pluginSubtitle = "Allows your auto focus components using Angular",
 		pluginSourceUrl = "https://www.akveo.com/products.html",
-		pluginWikiUrl = "https://github.com/GedMarc/JWebSwing-Angular-Auto-Focus/wiki",
-		pluginGitUrl = "https://github.com/GedMarc/JWebSwing-Angular-Auto-Focus",
+		pluginWikiUrl = "https://github.com/GedMarc/JWebMP-Angular-Auto-Focus/wiki",
+		pluginGitUrl = "https://github.com/GedMarc/JWebMP-Angular-Auto-Focus",
 		pluginIconUrl = "",
 		pluginIconImageUrl = "",
 		pluginOriginalHomepage = "https://www.akveo.com/products.html",
@@ -49,7 +49,7 @@ import javax.validation.constraints.NotNull;
 		description = "Allows your auto focus components using Angular",
 		url = "https://www.akveo.com/products.html")
 public class AngularTrackWidthPageConfigurator
-		implements IPageConfigurator
+		implements IPageConfigurator<AngularTrackWidthPageConfigurator>
 {
 	/**
 	 * If this configurator is enabled
