@@ -32,7 +32,6 @@ public class AngularTrackWidthDirective
 		implements IAngularDirective<AngularTrackWidthDirective>
 {
 
-	private static final long serialVersionUID = 1L;
 
 	/*
 	 * Constructs a new AngularTrackWidthDirective
