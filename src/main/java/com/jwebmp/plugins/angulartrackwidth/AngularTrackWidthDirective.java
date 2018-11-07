@@ -47,4 +47,15 @@ public class AngularTrackWidthDirective
 		return FileTemplates.getFileTemplate(AngularTrackWidthDirective.class, "trackWidth", "trackWidth.min.js")
 		                    .toString();
 	}
+
+	/**
+	 * If this page configurator is enabled
+	 *
+	 * @return if the configuration must run
+	 */
+	@Override
+	public boolean enabled()
+	{
+		return AngularTrackWidthPageConfigurator.isEnabled();
+	}
 }
