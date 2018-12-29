@@ -19,7 +19,6 @@ package com.jwebmp.plugins.angulartrackwidth;
 
 import com.jwebmp.core.FileTemplates;
 import com.jwebmp.core.base.angular.directives.AngularDirectiveBase;
-import com.jwebmp.core.base.angular.services.IAngularDirective;
 
 /**
  * The Angular Track Width Directive that is applied
@@ -28,11 +27,8 @@ import com.jwebmp.core.base.angular.services.IAngularDirective;
  * @since 30 May 2017
  */
 public class AngularTrackWidthDirective
-		extends AngularDirectiveBase
-		implements IAngularDirective<AngularTrackWidthDirective>
+		extends AngularDirectiveBase<AngularTrackWidthDirective>
 {
-
-
 	/*
 	 * Constructs a new AngularTrackWidthDirective
 	 */
