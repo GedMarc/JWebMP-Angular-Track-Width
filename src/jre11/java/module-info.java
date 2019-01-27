@@ -1,11 +1,3 @@
-import com.jwebmp.core.base.angular.services.IAngularDirective;
-import com.jwebmp.core.services.IPageConfigurator;
-import com.jwebmp.guicedinjection.interfaces.IGuiceScanJarExclusions;
-import com.jwebmp.guicedinjection.interfaces.IGuiceScanModuleExclusions;
-import com.jwebmp.plugins.angulartrackwidth.AngularTrackWidthDirective;
-import com.jwebmp.plugins.angulartrackwidth.AngularTrackWidthPageConfigurator;
-import com.jwebmp.plugins.angulartrackwidth.implementations.AngularTrackWidthExclusionsModule;
-
 module com.jwebmp.plugins.angulartrackwidth {
 	exports com.jwebmp.plugins.angulartrackwidth;
 
@@ -14,9 +6,9 @@ module com.jwebmp.plugins.angulartrackwidth {
 	requires com.jwebmp.guicedinjection;
 	requires com.jwebmp.core.angularjs;
 
-	provides IPageConfigurator with AngularTrackWidthPageConfigurator;
-	provides IAngularDirective with AngularTrackWidthDirective;
+	provides com.jwebmp.core.services.IPageConfigurator with com.jwebmp.plugins.angulartrackwidth.AngularTrackWidthPageConfigurator;
+	provides com.jwebmp.core.base.angular.services.IAngularDirective with com.jwebmp.plugins.angulartrackwidth.AngularTrackWidthDirective;
 
-	provides IGuiceScanJarExclusions with AngularTrackWidthExclusionsModule;
-	provides IGuiceScanModuleExclusions with AngularTrackWidthExclusionsModule;
+	provides com.jwebmp.guicedinjection.interfaces.IGuiceScanJarExclusions with com.jwebmp.plugins.angulartrackwidth.implementations.AngularTrackWidthExclusionsModule;
+	provides com.jwebmp.guicedinjection.interfaces.IGuiceScanModuleExclusions with com.jwebmp.plugins.angulartrackwidth.implementations.AngularTrackWidthExclusionsModule;
 }
