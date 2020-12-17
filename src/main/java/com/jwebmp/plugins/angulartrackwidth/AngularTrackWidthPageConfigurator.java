@@ -34,17 +34,17 @@ import jakarta.validation.constraints.NotNull;
  */
 @PluginInformation(pluginName = "Angular Auto Focus",
 		pluginDescription = "Allows your auto focus components using Angular",
-		pluginUniqueName = "jwebswing-angular-auto-focus",
+		pluginUniqueName = "angular-auto-focus",
 		pluginVersion = "1.0.0",
 		pluginCategories = "angular,auto focus,focus,ui,web ui, framework",
 		pluginSubtitle = "Allows your auto focus components using Angular",
-		pluginSourceUrl = "https://www.akveo.com/products.html",
+		pluginSourceUrl = "http://www.angulartutorial.net/2014/04/angular-js-auto-focus-for-input-box.html",
 		pluginWikiUrl = "https://github.com/GedMarc/JWebMP-Angular-Auto-Focus/wiki",
 		pluginGitUrl = "https://github.com/GedMarc/JWebMP-Angular-Auto-Focus",
 		pluginIconUrl = "",
 		pluginIconImageUrl = "",
-		pluginOriginalHomepage = "https://www.akveo.com/products.html",
-		pluginDownloadUrl = "https://sourceforge.net/projects/jwebswing/files/plugins/AngularAutoFocus.jar/download")
+		pluginOriginalHomepage = "https://www.pakainfo.com/automatically-angularjs-set-focus-input-from-controller/",
+		pluginDownloadUrl = "https://mvnrepository.com/artifact/com.jwebmp.plugins.angular/jwebmp-angular-auto-focus")
 @ComponentInformation(name = "Angular Auto Focus",
 		description = "Allows your auto focus components using Angular",
 		url = "https://www.akveo.com/products.html")
