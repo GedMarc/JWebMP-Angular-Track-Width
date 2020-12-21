@@ -32,7 +32,7 @@ import jakarta.validation.constraints.NotNull;
  * @author GedMarc
  * @since 16 Jun 2017
  */
-@PluginInformation(pluginName = "Angular Auto Focus",
+@PluginInformation(pluginName = "Auto Focus",
 		pluginDescription = "Allows your auto focus components using Angular",
 		pluginUniqueName = "angular-auto-focus",
 		pluginVersion = "1.0.0",
