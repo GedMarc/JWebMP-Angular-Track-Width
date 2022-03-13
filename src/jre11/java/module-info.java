@@ -6,7 +6,7 @@ module com.jwebmp.plugins.angulartrackwidth {
 	requires com.jwebmp.core;
 	requires jakarta.validation;
 	requires com.guicedee.guicedinjection;
-	requires com.jwebmp.core.angularjs;
+	requires com.jwebmp.core.angular;
 	
 	opens com.jwebmp.plugins.angulartrackwidth to com.jwebmp.core;
 	
